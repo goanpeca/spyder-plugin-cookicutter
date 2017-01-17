@@ -3,7 +3,7 @@
 ## Installation
 
 
-{{ cookiecutter.project_name }}
+Spyder {{ cookiecutter.plugin_name }}
 ======
 
 Build status
@@ -54,13 +54,13 @@ Using pip
 
 ::
 
-pip install {{ cookiecutter.project_name }}
+pip install spyder_{{ cookiecutter.plugin_name.lower().replace(' ', '_') }}
 
 Using conda
 
 ::
 
-conda install {{ cookiecutter.project_name }} -c conda-forge
+conda install spyder_{{ cookiecutter.plugin_name.lower().replace(' ', '_') }} -c conda-forge
 
 Usage
 -----

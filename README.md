@@ -26,9 +26,7 @@ author [Spyder Project Contributors]:
 email [admin@spyder-ide.org]:
 github_username [spyder-ide]:
 plugin_name [Demo Plugin]: Reports
-repo_name [spyder-reports]:
-project_name [spyder_reports]:
-description [Plugin for Spyder IDE.]: Spyder Plugin for Markdown reports for Pweave and Stitc
+description [Plugin for Spyder IDE.]: Spyder Plugin for Markdown reports for Pweave and Stitch
 version [0.1.0]:
 create_config_page [n]:
 ```
