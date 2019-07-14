@@ -1,0 +1,8 @@
+cookiecutter
+
+# Testing
+pytest
+pytest-cookies
+
+# Building
+entrypoints
