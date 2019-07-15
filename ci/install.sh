@@ -11,8 +11,8 @@ conda create -y -n test python=$PYTHON_VERSION
 conda activate test
 
 # Install dependencies
-conda install -c anaconda -y -q requirements/conda.txt
-conda install -y -q requirements/tests.txt
+conda install -c spyder-ide -y -q --file requirements/conda.txt
+conda install -c spyder-ide -y -q --file requirements/tests.txt
 
 # Install codecov
 pip install -q codecov
