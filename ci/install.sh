@@ -11,7 +11,7 @@ conda create -y -n test python=$PYTHON_VERSION
 conda activate test
 
 # Install dependencies
-conda install -y -q requirements/conda.txt
+conda install -c anaconda -y -q requirements/conda.txt
 conda install -y -q requirements/tests.txt
 
 # Install codecov
